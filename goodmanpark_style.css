@@ -96,3 +96,14 @@ a {
 	font-style: italic;
 	text-align: left;
 }
+.contact_address {
+	font-size: x-large;
+	margin-bottom: 20px;
+}
+.contact_email {
+	font-size: x-large;
+	margin-bottom: 20px;
+}
+.contact_linkedin {
+	font-size: x-large;
+}
