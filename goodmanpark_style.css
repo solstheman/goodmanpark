@@ -15,9 +15,6 @@ body {
 	z-index:1000;
 }
 .main_content {
-	height: 100vh;
-	padding-top: 82px;
-	width: 900px;
 	margin: auto;
 	text-align: center;
 	display: block;
@@ -79,14 +76,12 @@ a {
 	font-size: xx-large;
 	font-weight: bolder;
 }
-.pro_bono_company {
-    font-weight: bold;
-}
-.pro_bono_location {
-    font-style: italic;
-}
 .homepage_logo {
 	width: 100%;
+}
+.about_location {
+	font-style: italic;
+	font-size: large;
 }
 .about_line {
 	margin-bottom: 20px;
