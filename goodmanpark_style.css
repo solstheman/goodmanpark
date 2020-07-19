@@ -107,3 +107,7 @@ a {
 .contact_linkedin {
 	font-size: x-large;
 }
+.contact_phone {
+	font-size: x-large;
+	margin-bottom: 20px;
+}
