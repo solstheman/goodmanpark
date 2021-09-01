@@ -11,8 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="//embed.typeform.com/next/embed.js"></script>
+    <script type="text/javascript" src="goodman_park.js"></script>
   </head>
   <style>
     .font-light {
@@ -27,36 +29,46 @@
       width: 53px;
       margin-top: 10px;
     }
+
+    .menu-button {
+      cursor: pointer;
+      background: rgba(176, 19, 19, 1);
+      color: white;
+    }
+
+    .menu-button:hover {
+      background: rgba(39, 39, 37, 1);
+    }
+
+    .menu-button.active {
+      cursor: pointer;
+      background: rgba(124, 109, 115, 1);
+      color: white;
+    }
   </style>
   <body style="font-family: Open Sans; background: #f1f1e4">
-    <div class="main_content">
-      <div class="row" style="height: 56px">
-        <div class="col-3" style="background: rgba(39, 39, 37, 1)"></div>
-        <div class="col-2" style="background: rgba(176, 19, 19, 1)"></div>
-        <div
-          class="col-1 text-center pt-3"
-          style="background: rgba(124, 109, 115, 1); color: white"
-        >
-          <strong>Home</strong>
-        </div>
-        <div
-          class="col-1 text-center pt-3"
-          style="background: rgba(176, 19, 19, 1); color: white"
-        >
-          <strong>Contact</strong>
-        </div>
-        <div class="col-2" style="background: rgba(176, 19, 19, 1)"></div>
-        <div class="col-3" style="background: rgba(39, 39, 37, 1)"></div>
+    <div class="row" style="height: 56px">
+      <div class="col-3" style="background: rgba(39, 39, 37, 1)"></div>
+      <div class="col-2" style="background: rgba(176, 19, 19, 1)"></div>
+      <div class="col-1 text-center pt-3 home menu-button active">
+        <strong>Home</strong>
       </div>
+      <div class="col-1 text-center pt-3 contact menu-button">
+        <strong>Contact</strong>
+      </div>
+      <div class="col-2" style="background: rgba(176, 19, 19, 1)"></div>
+      <div class="col-3" style="background: rgba(39, 39, 37, 1)"></div>
+    </div>
+    <div class="row" style="height: 100px">
+      <div
+        class="col text-center align-self-center"
+        style="font-size: 29px; letter-spacing: 0.1em"
+      >
+        GoodmanPark Law, PLLC 
+      </div>
+    </div>
+    <div class="main_content">
       <div class="container">
-        <div class="row" style="height: 100px">
-          <div
-            class="col text-center align-self-center"
-            style="font-size: 29px; letter-spacing: 0.1em"
-          >
-            GoodmanPark Law, PLLC 
-          </div>
-        </div>
         <div
           class="row justify-content-around p-4"
           style="color: #f0f0da; background: #272725"
@@ -285,25 +297,21 @@
           </div>
         </div>
       </div>
-      <div
-        class="row mt-4"
-        style="height: 56px; background: rgba(39, 39, 37, 1); font-size: 14"
-      >
-        <div class="col-3" style="background: rgba(176, 19, 19, 1)"></div>
-        <div class="col align-self-center" style="color: #aa9f7b">
-          &ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;©&nbsp;
-          Seth Goodman Park&nbsp; &nbsp; &nbsp; •&nbsp; &nbsp; &nbsp; Website
-          design by Jaye Medalia
-          <a href="https://www.linkedin.com/in/sethgpark/">
-            <img class="float-right" src="linkedInlogo.jpg"
-          /></a>
-        </div>
-        <div class="col-3" style="background: rgba(176, 19, 19, 1)"></div>
-      </div>
     </div>
     <div
-      data-tf-widget="NjROA2OS"
-      style="width: 100%; height: 400px; color: #ffffff"
-    ></div>
+      class="row mt-4"
+      style="height: 56px; background: rgba(39, 39, 37, 1); font-size: 14"
+    >
+      <div class="col-3" style="background: rgba(176, 19, 19, 1)"></div>
+      <div class="col align-self-center" style="color: #aa9f7b">
+        &ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;©&nbsp;
+        Seth Goodman Park&nbsp; &nbsp; &nbsp; •&nbsp; &nbsp; &nbsp; Website
+        design by Jaye Medalia
+        <a href="https://www.linkedin.com/in/sethgpark/">
+          <img class="float-right" src="linkedInlogo.jpg"
+        /></a>
+      </div>
+      <div class="col-3" style="background: rgba(176, 19, 19, 1)"></div>
+    </div>
   </body>
 </html>
