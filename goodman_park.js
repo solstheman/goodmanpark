@@ -11,7 +11,7 @@ $(function () {
 $(function () {
   $(".contact").on("click", function (e) {
     e.preventDefault();
-    $(".main_content").load("home.html");
+    $(".main_content").load("contact.html");
     $(".home").removeClass("active");
     $(".contact").addClass("active");
   });
